@@ -1,0 +1,378 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.parent-one {
+    width: 100%;
+    height: 88vh;
+    background-image: url(loopstudios-landing-page-main/images/desktop/image-hero.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.headed {
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.tittle-one {
+    color: white;
+    font-size: 34px;
+    font-weight: 650;
+}
+
+
+.navegacion {
+
+}
+
+.list-header {
+    display: flex;
+}
+
+li {
+    margin: 15px;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.box-header {
+    width: 650px;
+    height: 300px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px;
+
+}
+
+
+.cont-box-header {
+    color: white;
+    font-size: 67px;
+    margin: 70px;
+    text-transform: uppercase;
+}
+
+
+.parent-two {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.box-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box-text {
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+}
+
+.cont-text {
+    margin: 20px;
+}
+
+.rec {
+    display: flex;
+    margin: 70px;
+}
+
+.tittle-main {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.text-main {
+    color: #8C8C8C;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.creations-box {
+}
+
+.content-creations-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 170px;
+}
+
+.tittle-creations {
+    font-size: 40px;
+    font-size: 200;
+}
+
+.button-one {
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button-one:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.section-imgs {
+     margin: 70px;
+}
+
+.img-part-one {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.img-word {
+    width: 256px;
+    height: 450px;
+    border: 1px solid black;
+    background-image: url(loopstudios-landing-page-main/images/desktop/image-deep-earth.jpg);
+    position: relative;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+.img-word:hover {
+    filter: hue-rotate(200deg);
+}
+
+
+.img-night {
+    background-image: url(loopstudios-landing-page-main/images/desktop/image-night-arcade.jpg);
+    width: 256px;
+    height: 450px;
+    border: 1px solid black;
+     position: relative;
+     transition: filter 0.3s ease;
+     cursor: pointer;
+}
+
+.img-night:hover {
+    filter: hue-rotate(180deg);
+}
+
+.img-soccer {
+    background-image: url(loopstudios-landing-page-main/images/desktop/image-soccer-team.jpg);
+    width: 256px;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+.img-soccer:hover {
+    filter:grayscale(100%);
+}
+
+
+.img-car {
+    background-image: url(loopstudios-landing-page-main/images/desktop/image-grid.jpg);
+    width: 256px;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+.img-car:hover {
+    filter: hue-rotate(190deg);
+}
+
+.img-part-two {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+    position: relative;
+}
+
+.img-path {
+    background-image: url(loopstudios-landing-page-main/images/desktop/image-from-above.jpg);
+    width: 256px;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+.img-path:hover {
+    filter: hue-rotate(120deg);
+}
+
+.img-auroras {
+    background-image: url(loopstudios-landing-page-main/images/desktop/image-pocket-borealis.jpg);
+    width: 256px;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+.img-auroras:hover {
+    filter: hue-rotate(180deg);
+}
+
+.img-moon {
+    background-image: url(loopstudios-landing-page-main/images/desktop/image-curiosity.jpg);
+    width: 256px;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+.img-moon:hover {
+    filter: hue-rotate(120deg);
+}
+
+.img-make-it-fisheye {
+    background-image: url(loopstudios-landing-page-main/images/desktop/image-fisheye.jpg);
+    width: 256px;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+.img-make-it-fisheye:hover {
+    filter: hue-rotate(120deg);
+}
+
+/* Aca comienzas los textos que aparecen sobre las imagenes */
+
+.text-img {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    width: 30%;
+    left: 30px;
+}
+
+.text-soccer {
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    width: 70%;
+    text-align: center;
+
+}
+
+.text-above {
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    width: 85%;
+}
+
+.text-fisheye {
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    width: 75%;
+}
+
+.text-fisheye:hover {
+    color: black;
+}
+
+
+.section-finals {
+    width: 100%;
+    height: 28vh;
+    background-color: black;
+
+}
+
+.box-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.list-icons {
+    display: flex;
+    align-items: center;
+}
+
+.box-info {
+    display: flex;
+    align-items: center;
+}
+
+.list-final {
+    display: flex;
+    color: white;
+}
+
+.separator {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-final {
+    color: white;
+
+}
